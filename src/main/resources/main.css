@@ -1,0 +1,68 @@
+.nav-btn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-border-color: #fff;
+    -fx-border-width: 1px;
+}
+.nav-btn:hover{
+    -fx-background-color:  linear-gradient(to bottom right,  #b1c1c6, #abcbd3);
+    -fx-text-fill: #fff;
+}
+
+.nav-userbtn{
+    -fx-background-color: white;
+    -fx-cursor: hand;
+    -fx-border-width: 1px;
+}
+.nav-userbtn:hover{
+    -fx-background-color:  linear-gradient(to bottom right, #B1D4E0, #2E8BC0);
+    -fx-text-fill: #000;
+}
+
+
+.logout{
+    -fx-background-color:  #abcbd3;
+    -fx-cursor: hand;
+    -fx-padding: 5px;
+}
+
+.logoutUser{
+    -fx-background-color: #B1D4E0;
+    -fx-cursor: hand;
+    -fx-padding: 5px;
+}
+
+.radius {
+    -fx-background-radius: 5px;
+}
+
+.shadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 0);
+}
+
+.functionBtn{
+    -fx-background-color:  #b1c1c6;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-border-color: #fff;
+    -fx-border-width: 1px;
+}
+.circlular-button{
+    -fx-background-radius: 150;
+    -fx-background-color:  #b1c1c6;
+    -fx-cursor: hand;
+    -fx-border-width: 1px;
+}
+
+
+.functionBtn:hover {
+    -fx-background-color:  linear-gradient(to bottom right, #b1c1c6, #abcbd3);
+}
+
+.my-imageview {
+    -fx-border-color: white;
+    -fx-border-width: 5;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}

@@ -6,6 +6,14 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 
+//
+// Class: MyMetaObjectHandler
+//
+// Description:
+// MyMetaObjectHandler is a class responsible for filling in the create and update time and user
+// id when a new entity(recipe, user, ingredients ) is created or updated
+//
+//
 @Component
 @Slf4j
 public class MyMetaObjectHandler implements MetaObjectHandler {
